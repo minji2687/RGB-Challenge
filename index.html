@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rgbchallenge</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+
+            <h1>THE GREAT <span>RGB</span> GUESSING CHALLENGE</h1>
+
+        </header>
+        <main class="main">
+
+            <p class="score-text">0</p>
+            
+            <div class="assignment">
+            
+            <h2 class="color-text"></h2>
+            
+            <div class="options">
+                <div class="option-item"></div>
+                <div class="option-item"></div>
+                <div class="option-item"></div>
+            </div>
+
+           </div>
+
+
+            <div class="right-modal">
+                <div class="modal-content">
+                <span>THAT'S RIGHT!</span>
+                <button class="next-stage">NEXT STAGE</button>
+            </div>
+            </div>
+
+            <div class="wrong-modal">
+                <div class="modal-content">
+                TOO BAD! :(
+                <div>SCORE: <span class="score-in-modal"></span></div>
+                <button class="play-again">PLAY AGAIN</button>
+               </div>
+            </div>
+
+        </main>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
